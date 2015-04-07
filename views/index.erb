@@ -1,0 +1,10 @@
+<% unless @name %>
+  <form action="/register" method="post">
+    NAME: <input type="text" name="player_name">
+          <input type="submit" value="Register">
+  </form>
+<% end %>
+
+<% if @name %>
+  <h1>Hello <%= @name %></h1>
+<% end %>
