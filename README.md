@@ -1,0 +1,3 @@
+# Capybara - playing with sessions
+
+i.e. In browser :safari do something, in browser :chrome do something else ...
